@@ -1,14 +1,24 @@
-.App-header {
+.app-header {
   background-color: #fff;
-  height: 150px;
-  padding: 20px;
+  height: 10em;
+  padding: 1.5em;
   color: #000;
   display: flex;
   flex-direction: column;
+  align-self: stretch;
 }
 
-.App-header-divider {
+.app-header--content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-header--content :first-child {
+  margin-right: auto;
+}
+
+.app-header--divider {
   background-color: #5e7ff8;
-  height: 5px;
+  height: 0.25em;
   margin-top: auto;
 }
