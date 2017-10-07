@@ -2,6 +2,11 @@ body {
   font-size: 16px;
 }
 
+a:link,
+body {
+  color: #444;
+}
+
 .app-container {
   width: 70%;
   max-width: 64em;
@@ -12,8 +17,8 @@ body {
 }
 
 .app-intro {
-  text-align: center;
+  text-align: justify;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
   width: 50%;
+  line-height: 1.5;
 }

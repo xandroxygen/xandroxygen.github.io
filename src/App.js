@@ -4,9 +4,13 @@ import "./App.css"
 
 class App extends Component {
   render() {
+    const headerInfo = [
+      "xander.moffatt@gmail.com",
+      ["github.com/xandroxygen", "linkedin.com/in/xander-moffatt"],
+    ]
     return (
       <div className="app-container">
-        <Header title="Xander" subtitle="Moffatt" />
+        <Header title="Xander" subtitle="Moffatt" info={headerInfo} />
         <p className="app-intro">
           This is a work in progress! I am a CS student at Brigham Young
           University, minoring in Music. I'm currently volunteering abroad with
