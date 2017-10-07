@@ -1,0 +1,14 @@
+.page-info {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.875em;
+  align-self: center;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.page-info--item {
+  margin: 0 1em;
+}
