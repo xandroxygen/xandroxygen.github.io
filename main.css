@@ -16,27 +16,29 @@ body {
 }
 
 .header {
-  font-family: "Montserrat", sans-serif;
   background-color: #fff;
-  height: 9em;
-  padding: 1.5em 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  line-height: initial;
 }
 
 .header--divider {
   background-color: #5e7ff8;
   height: 0.25em;
-  margin-top: auto;
+}
+
+.header--title {
+  font-family: "Montserrat", sans-serif;
+  line-height: initial;
+  padding: 1.5em 0;
+  color: #000;
 }
 
 .header--title h1,
 .header--title h2 {
   letter-spacing: 0.375em;
   margin: 0;
-  color: #000;
 }
 
 .header--title h1 {
@@ -49,8 +51,10 @@ body {
   font-size: 2.75em;
 }
 
-.headline-text {
-  width: 70%;
-  font-size: 2em;
+.header--tag {
+  width: 80%;
+  font-size: 2.25em;
   font-weight: 300;
+  margin: 0;
+  padding-top: 1em;
 }
