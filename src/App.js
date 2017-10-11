@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Header from "./components/Header/Header"
-import HeadlineText from "./components/HeadlineText/HeadlineText"
+import { HeadlineText } from "./components/Text/Text"
 import "./App.css"
 
 class App extends Component {
@@ -13,8 +13,8 @@ class App extends Component {
       <div className="app-container">
         <Header title="Xander" subtitle="Moffatt" />
         <HeadlineText>
-          I'm a full-stack software engineer that's built microservices,
-          websites, and apps, and I enjoy making things work together.
+          I'm a full-stack software engineer who builds microservices, websites,
+          and apps, and I enjoy making things work together.
         </HeadlineText>
       </div>
     )
