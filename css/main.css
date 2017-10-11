@@ -1,9 +1,19 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   color: #444444; }
+
+body,
+p,
+h3 {
+  margin: 0; }
+
+h3 {
+  color: #5e7ff8;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal; }
 
 .container {
   width: 70%;
@@ -65,5 +75,80 @@ body {
       .header--tag {
         margin: 0;
         margin-top: 1em; } }
+
+.intro-text {
+  font-weight: 300;
+  position: relative; }
+  .intro-text ul {
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    position: absolute;
+    left: 0;
+    margin: 0; }
+  .intro-text p {
+    padding: 0.75em 0;
+    font-size: 1.2em;
+    visibility: hidden; }
+  .intro-text .intro-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: left; }
+    @media screen and (max-width: 850px) {
+      .intro-text .intro-header {
+        flex-direction: column; } }
+  .intro-text .toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 2em; }
+    @media screen and (max-width: 850px) {
+      .intro-text .toggle {
+        margin-left: 0; } }
+    .intro-text .toggle span {
+      color: #888888;
+      transition: color 0.4s; }
+      .intro-text .toggle span:first-child {
+        color: #5e7ff8; }
+    .intro-text .toggle input {
+      position: absolute;
+      margin-left: -9999px;
+      visibility: hidden; }
+    .intro-text .toggle input + label {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+      margin: 0 0.5em;
+      padding: 0.2em;
+      width: 4em;
+      height: 2em;
+      background-color: #dddddd;
+      border-radius: 2em;
+      transition: background 0.4s; }
+    .intro-text .toggle input + label:before,
+    .intro-text .toggle input + label:after {
+      display: block;
+      position: absolute;
+      content: ""; }
+    .intro-text .toggle input + label:before {
+      top: 0.2em;
+      left: 0.2em;
+      right: 0.2em;
+      bottom: 0.2em;
+      background-color: #ffffff;
+      border-radius: 2em;
+      transition: background 0.4s; }
+    .intro-text .toggle input + label:after {
+      top: 0.4em;
+      left: 0.4em;
+      bottom: 0.4em;
+      width: 1.6em;
+      background-color: #dddddd;
+      border-radius: 1.8em;
+      transition: margin 0.4s; }
+    .intro-text .toggle input:checked + label:after {
+      margin-left: 2em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,9 +1,21 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   color: $darkgrey;
+}
+
+body,
+p,
+h3 {
+  margin: 0;
+}
+
+h3 {
+  color: $mainblue;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
 .container {

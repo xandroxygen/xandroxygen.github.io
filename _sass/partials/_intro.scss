@@ -1,0 +1,95 @@
+.intro-text {
+  font-weight: 300;
+  position: relative;
+
+  ul {
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    position: absolute;
+    left: 0;
+    margin: 0;
+  }
+
+  p {
+    padding: 0.75em 0;
+    font-size: 1.2em;
+    visibility: hidden;
+  }
+
+  .intro-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: left;
+
+    @include small-desktop {
+      flex-direction: column;
+    }
+  }
+
+  .toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    $toggleSize: 2em;
+    $togglePadding: $toggleSize * 0.1;
+
+    @include small-desktop {
+      margin-left: 0;
+    }
+    span {
+      color: $lightgrey;
+      transition: color 0.4s;
+      &:first-child {
+        color: $mainblue;
+      }
+    }
+    input {
+      position: absolute;
+      margin-left: -9999px;
+      visibility: hidden;
+    }
+    input + label {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+      margin: 0 0.5em;
+      padding: $togglePadding;
+      width: 2 * $toggleSize;
+      height: $toggleSize;
+      background-color: #dddddd;
+      border-radius: $toggleSize;
+      transition: background 0.4s;
+    }
+    input + label:before,
+    input + label:after {
+      display: block;
+      position: absolute;
+      content: "";
+    }
+    input + label:before {
+      top: $togglePadding;
+      left: $togglePadding;
+      right: $togglePadding;
+      bottom: $togglePadding;
+      background-color: $white;
+      border-radius: $toggleSize;
+      transition: background 0.4s;
+    }
+    input + label:after {
+      top: 2 * $togglePadding;
+      left: 2 * $togglePadding;
+      bottom: 2 * $togglePadding;
+      width: $toggleSize - 2 * $togglePadding;
+      background-color: #dddddd;
+      border-radius: $toggleSize - $togglePadding;
+      transition: margin 0.4s;
+    }
+    input:checked + label:after {
+      margin-left: $toggleSize;
+    }
+  }
+}
