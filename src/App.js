@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Header from "./components/Header/Header"
+import HeadlineText from "./components/HeadlineText/HeadlineText"
 import "./App.css"
 
 class App extends Component {
@@ -10,11 +11,11 @@ class App extends Component {
     ]
     return (
       <div className="app-container">
-        <Header title="Xander" subtitle="Moffatt" info={headerInfo} />
-        <p className="app-tag">
+        <Header title="Xander" subtitle="Moffatt" />
+        <HeadlineText>
           I'm a full-stack software engineer that's built microservices,
           websites, and apps, and I enjoy making things work together.
-        </p>
+        </HeadlineText>
       </div>
     )
   }
