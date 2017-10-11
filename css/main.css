@@ -40,22 +40,30 @@ body {
       font-weight: 300;
       font-size: 2.75em; }
   .header--tag {
-    width: 80%;
-    margin: 0;
-    padding-top: 1em;
-    font-size: 2.25em;
-    font-weight: 300; }
-    @media screen and (max-width: 1024px) {
-      .header--tag {
-        font-size: 2em; } }
-    @media screen and (max-width: 850px) {
-      .header--tag {
-        font-size: 1.75em; } }
+    margin: auto 0; }
+    .header--tag p {
+      width: 80%;
+      margin: 0;
+      padding-top: 1em;
+      font-size: 2.25em;
+      font-weight: 300; }
+      @media screen and (max-width: 1024px) {
+        .header--tag p {
+          font-size: 2em; } }
+      @media screen and (max-width: 850px) {
+        .header--tag p {
+          font-size: 1.75em; } }
+      @media screen and (max-width: 768px) {
+        .header--tag p {
+          font-size: 1.5em; } }
+      @media screen and (max-width: 630px) {
+        .header--tag p {
+          width: 100%; } }
+      .header--tag p:first-child {
+        padding-top: 0; }
     @media screen and (max-width: 768px) {
       .header--tag {
-        font-size: 1.5em; } }
-    @media screen and (max-width: 630px) {
-      .header--tag {
-        width: 100%; } }
+        margin: 0;
+        margin-top: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
