@@ -11,11 +11,9 @@ class App extends Component {
     return (
       <div className="app-container">
         <Header title="Xander" subtitle="Moffatt" info={headerInfo} />
-        <p className="app-intro">
-          This is a work in progress! I am a CS student at Brigham Young
-          University, minoring in Music. I'm currently volunteering abroad with
-          my wife! We are teaching English in Russia for the Fall 2017 semester.
-          More things about me and I never know what to say...
+        <p className="app-tag">
+          I'm a full-stack software engineer that's built microservices,
+          websites, and apps, and I enjoy making things work together.
         </p>
       </div>
     )
