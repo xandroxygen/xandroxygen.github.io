@@ -1,0 +1,56 @@
+.header {
+  background-color: $white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+
+  &--divider {
+    background-color: $mainblue;
+    height: 0.25em;
+  }
+
+  &--title {
+    font-family: "Montserrat", sans-serif;
+    line-height: initial;
+    padding: 1.5em 0;
+    color: $black;
+
+    h1,
+    h2 {
+      letter-spacing: 0.375em;
+      margin: 0;
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: 3em;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 2.75em;
+    }
+  }
+
+  &--tag {
+    width: 80%;
+    margin: 0;
+    padding-top: 1em;
+    font-size: 2.25em;
+    font-weight: 300;
+
+    @include desktop {
+      font-size: 2em;
+    }
+    @include small-desktop {
+      font-size: 1.75em;
+    }
+    @include tablet {
+      font-size: 1.5em;
+    }
+    @include small-tablet {
+      width: 100%;
+    }
+  }
+}

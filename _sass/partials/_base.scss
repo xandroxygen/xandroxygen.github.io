@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: $darkgrey;
+}
+
+.container {
+  width: 70%;
+  max-width: 64em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    width: 90%;
+  }
+}
