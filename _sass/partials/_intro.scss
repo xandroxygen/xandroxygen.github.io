@@ -5,10 +5,17 @@
   ul {
     list-style: none;
     font-size: 1.5em;
-    line-height: 2em;
     position: absolute;
     left: 0;
-    margin: 0;
+    margin: 0.5 em 0 0;
+
+    li {
+      padding-bottom: 0.5em;
+    }
+
+    @include small-desktop {
+      font-size: 1.2em;
+    }
   }
 
   p {
@@ -33,7 +40,7 @@
     align-items: center;
     margin-left: 2em;
     $toggleSize: 2em;
-    $togglePadding: $toggleSize * 0.1;
+    $togglePadding: $toggleSize * 0.05;
 
     @include small-desktop {
       margin-left: 0;
@@ -85,7 +92,7 @@
       bottom: 2 * $togglePadding;
       width: $toggleSize - 2 * $togglePadding;
       background-color: #dddddd;
-      border-radius: $toggleSize - $togglePadding;
+      border-radius: $toggleSize - 2 * $togglePadding;
       transition: margin 0.4s;
     }
     input:checked + label:after {
