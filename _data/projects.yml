@@ -1,0 +1,98 @@
+images:
+  - name: stop-it
+    synopsis: Registration tracker for organists.
+    description: This is my current work in progress and my first React Native app. stop-it keeps track of an organist's registrations, or combinations of sounds, which replaces the need for hurriedly scribbled registrations on sheet music.
+    built_with:
+      - tech: React Native
+      - tech: Expo
+      - tech: NativeBase
+      - tech: iOS
+      - tech: Android
+    image: stopit.png
+    link: github.com/xandroxygen/stop-it
+
+  - name: Canvas Address Book
+    synopsis: Fuzzy searching of massive user databases.
+    description: The microservice built with my team at Instructure, which I helped to polish for release. Used in Canvas to search for users to send messages to across all courses, and provided a 15x speed boost in searching. I added functionality to the API, upgraded the service to Webpack 2, and even broke prod once. <span>&#x1f643;</span>
+    built_with:
+      - tech: Node
+      - tech: Elasticsearch
+      - tech: Dynamo
+      - tech: Kinesis
+      - tech: Docker
+      - tech: Webpack
+    image: canvas.png
+
+  - name: GPA Calculator (Elm)
+    synopsis: Easy cumulative GPA calculator built in Elm.
+    description: The GPA calculator is my version of a "Hello World" for a language - easy logic, actually does something, and is just complex enough to get a sense for the language and tools. I've been curious about Elm for a while, so I did something about it and built this.
+    built_with:
+      - tech: Elm
+      - tech: Skeleton CSS
+    image: elm.png
+    link: github.com/xandroxygen/elm-gpa-calc
+
+  - name: GPA Calculator (Swift)
+    synopsis: Another GPA Calculator built for iOS.
+    description: I wanted to make an iOS app, and needed something simple to test the waters with - enter the trusty GPA calculator. For this, I decided to use Swift alone, with Xcode's Storyboards providing the design.
+    built_with:
+      - tech: Swift
+      - tech: Xcode
+    image: swift.jpg
+    link: github.com/xandroxygen/ios-gpa-calc
+
+  - name: reload-server-webpack-plugin
+    synopsis: Plugin that I forked to expand its abilities.
+    description: This plugin helped my team at Instructure drop its dependency on <code>nodemon</code> for live reloading. However, it didn't have the capability to allow arguments on <code>node</code> or the server script. I added those capabilities and submitted a PR. One day, it'll get merged...
+    built_with:
+      - tech: Webpack
+      - tech: ES2017
+    image: reload.png
+    link: github.com/xandroxygen/reload-server-webpack-plugin
+
+  - name: BYU Flashcards
+    synopsis: Quizlet-like website for BYU students.
+    description: My team of 3 built this website from the database up to help serve the BYU community by giving them a Quizlet-like website that integrated with BYU's LMS. In addition to scoping and building both the API and front-end, one of my responsibilities was collaborating with designers on features that students would appreciate and use.
+    built_with:
+      - tech: Backbone
+      - tech: Material Design
+      - tech: Handlebars
+      - tech: SCSS
+      - tech: Laravel
+    image: flashcards.png
+    link: flashcards.byu.edu
+
+other:
+  - name: xandroxygen.github.io
+    synopsis: Personal website.
+    description: This site is a simple one, built in (mostly) plain HTML and Sass. Originally started in React before realizing that was too complicated. Learned some interesting lessons with my first attempt at a small React app, but development was much easier on a more simple scale.
+    built_with:
+      - tech: Jekyll
+      - tech: Sass
+      - tech: Github Pages
+    link: github.com/xandroxygen/xandroxygen.github.io
+
+  - name: BYU Learning Suite Grader
+    synopsis: Streamlined grading process for instructors.
+    description: Features added to the grader include instructor notes, feedback to students, the ability to submit multiple files in one submission. I spent my entire time at Learning Suite working on and improving this page.
+    built_with:
+      - tech: Backbone
+      - tech: Handlebars
+      - tech: SCSS
+      - tech: jQuery
+
+  - name: Catan
+    synopsis: Semester project for BYU's CS340.
+    description: Over the course of the semester, my team of 4 built both the client and server for this Java desktop app. We used Github to collaborate on this relatively large application, and used many design patterns as required by our professor. Our project had one of the lowest bug counts in the class.
+    built_with:
+      - tech: Java
+    link: github.com/xandroxygen/Catan
+
+  - name: Family Map
+    synopsis: Semester project for BYU's CS240.
+    description: Final project for the Advanced Programming class, which was done on Android devices. This app was built from the ground up, other than the server. Though the specs didn't require much in the way of design, I went out of my way to make sure it followed Material Design principles, which made the TAs pleasantly surprised.
+    built_with:
+      - tech: Java
+      - tech: Android
+      - tech: Material Design
+    link: github.com/xandroxygen/FamilyMap

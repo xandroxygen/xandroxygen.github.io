@@ -1,0 +1,36 @@
+<section class="projects">
+  <h3>Projects</h3>
+  <ul>
+    {% for project in site.data.projects.images %}
+    <li>
+      <div class="projects-info">
+          <h4>{{ project.name }}</h4>
+          <a target="_blank" href="http://{{ project.link }}">{{ project.link }}</a> 
+          <p>{{ project.description }}</p>
+          <div class="projects-tech">
+            {% for item in project.built_with %}
+            <span><code>{{ item.tech }}</code></span>
+            {% endfor %}
+          </div>
+      </div>
+      <div class="projects-image">
+        <img src="{{ site.url }}/assets/{{ project.image }}"> 
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="projects-other">
+    {% for project in site.data.projects.other %}
+    <div class="projects-info">
+      <h4>{{ project.name }}</h4>
+      <a target="_blank" href="http://{{ project.link }}">{{ project.link }}</a> 
+      <p>{{ project.description }}</p>
+      <div class="projects-tech">
+        {% for item in project.built_with %}
+        <span><code>{{ item.tech }}</code></span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

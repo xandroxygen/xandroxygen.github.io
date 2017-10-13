@@ -7,7 +7,8 @@ body {
 
 body,
 p,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -16,6 +17,24 @@ h3 {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 1em 0;
+  padding-left: 40px;
+}
+
+code {
+  background-color: #eeeeee;
+  border-radius: 0.125em;
+  padding: 0.125em 0.25em;
+  font-family: "Inconsolata", monospace;
 }
 
 .container {
@@ -27,5 +46,9 @@ h3 {
 
   @include mobile {
     width: 90%;
+  }
+
+  @include small-mobile {
+    width: 98%;
   }
 }
