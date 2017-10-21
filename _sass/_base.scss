@@ -37,6 +37,11 @@ code {
   font-family: "Inconsolata", monospace;
 }
 
+a {
+  color: $mainblue;
+  word-wrap: break-word;
+}
+
 .container {
   width: 70%;
   max-width: 64em;

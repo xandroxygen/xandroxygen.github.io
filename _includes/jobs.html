@@ -1,0 +1,17 @@
+<section class="jobs">
+  <h3>Experience</h3>
+  <ul>
+    {% for job in site.data.jobs %}
+    <li>
+      <div>
+        <h4>{{ job.title }}</h4>
+        <a target="_blank" href="http://{{ job.link }}">{{ job.company }}</a>
+        <p>{{ job.dates }}</p>
+      </div>
+      <div>
+        <p class="job-description">{{ job.description }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
