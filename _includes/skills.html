@@ -1,0 +1,42 @@
+<section class="skills">
+  <h3>Skills</h3>
+  <div class="skills-lists">
+    <div>
+      <ul>
+        <li><h4>Languages</h4></li>
+        {% for language in site.data.skills.languages %}
+        <li>
+          <p>{{language.item}}</p>
+          {% if language.php %}
+            {% include rating.html number=language.level php=true %}
+          {% else %}
+            {% include rating.html number=language.level %}
+          {% endif %}
+        </li>
+        {% endfor%}
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><h4>Frameworks</h4></li>
+        {% for framework in site.data.skills.frameworks %}
+        <li>
+            <p>{{framework.item}}</p>
+            {% include rating.html number=framework.level %}
+          </li>
+        {% endfor%}
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><h4>Tools</h4></li>
+        {% for tool in site.data.skills.tools %}
+        <li>
+            <p>{{tool.item}}</p>
+            {% include rating.html number=tool.level %}
+          </li>
+        {% endfor%}
+      </ul>
+    </div>
+  </div>
+</section>
