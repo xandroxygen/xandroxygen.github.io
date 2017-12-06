@@ -11,6 +11,16 @@ images:
     image: stopit.png
     link: github.com/xandroxygen/stop-it
 
+  - name: microparsec
+    synopsis: Simple text parser for keywords and regex
+    description: A bare-bones text parser that looks for keywords and regular expressions and plucks them out of the text. Inspired by Todoist's Quick Add functionality, which uses Natural Language Processing (NLP) to understand what you type. This is a very simple version (<100loc!), but was an interesting exercise in using regular expressions.
+    built_with:
+      - tech: JS
+      - tech: Regex
+      - tech: Jest
+    image: microparsec.png
+    link: github.com/xandroxygen/microparsec
+
   - name: Canvas Address Book
     synopsis: Fuzzy searching of massive user databases.
     description: The microservice built with my team at Instructure, which I helped to polish for release. Used in Canvas to search for users to send messages to across all courses, and provided a 15x speed boost in searching. I added functionality to the API, upgraded the service to Webpack 2, and even broke prod once. <span>&#x1f643;</span>

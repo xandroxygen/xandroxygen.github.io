@@ -30,6 +30,8 @@ frameworks:
     level: 3
   - item: Jekyll
     level: 3
+  - item: Vue
+    level: 2
   - item: iOS
     level: 2
   - item: Android
