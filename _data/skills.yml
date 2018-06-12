@@ -1,10 +1,14 @@
 languages:
-  - item: JS (ES2017)
+  - item: JS (ES2017+)
     level: 5
   - item: HTML
     level: 4
   - item: CSS
     level: 4
+  - item: Python
+    level: 4
+  - item: Ruby
+    level: 3
   - item: Java
     level: 3
   - item: SQL
@@ -16,10 +20,10 @@ languages:
     level: 2
   - item: C#
     level: 2
-  - item: Ruby
-    level: 2
 
 frameworks:
+  - item: Vue
+    level: 5
   - item: Backbone
     level: 4
   - item: React
@@ -30,8 +34,6 @@ frameworks:
     level: 3
   - item: Jekyll
     level: 3
-  - item: Vue
-    level: 2
   - item: iOS
     level: 2
   - item: Android
@@ -46,15 +48,17 @@ tools:
     level: 4
   - item: Git
     level: 4
-  - item: Bash
+  - item: Terraform
+    level: 4
+  - item: AWS Lambda
+    level: 3
+  - item: AWS Kinesis
     level: 3
   - item: Docker
     level: 3
-  - item: S3
+  - item: AWS S3
     level: 3
-  - item: Dynamo
+  - item: AWS DynamoDB
     level: 3
-  - item: Expo
+  - item: Numpy
     level: 3
-  - item: Elasticsearch
-    level: 2
