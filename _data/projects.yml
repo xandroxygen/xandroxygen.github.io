@@ -1,18 +1,39 @@
 images:
-  - name: stop-it
-    synopsis: Registration tracker for organists.
-    description: This is my current work in progress and my first React Native app. stop-it keeps track of an organist's registrations, or combinations of sounds, which replaces the need for hurriedly scribbled registrations on sheet music.
+  - name: Khronos
+    synopsis: (in progress) A simple Slack status updater.
+    description: I work part time right now, which means I am either at work, in class, on the bus, or at home. This simple app keeps track of my daily schedule and updates my Slack status, so that my team knows where I am.
     built_with:
-      - tech: React Native
-      - tech: Expo
-      - tech: NativeBase
-      - tech: iOS
-      - tech: Android
-    image: stopit.png
-    link: github.com/xandroxygen/stop-it
+      - tech: Node
+      - tech: Slack API
+    image: khronos.png
+    link: github.com/xandroxygen/khronos
+
+  - name: PandaPom
+    synopsis: A hackweek Pomodoro timer.
+    description: I enjoy using the Pomodoro technique to manage my time, but wasn't satisfied with the existing timers out there. So, I built my own. This was a hackweek project and took less than a week of work to get running, thanks to Nuxt and the beauty of static sites.
+    built_with:
+      - tech: Vue
+      - tech: Bulma
+      - tech: Nuxt
+      - tech: Terraform
+      - tech: Github Pages
+    image: pandapom.png
+    link: github.com/xandroxygen/pandapom
+    
+  - name: Inst-FS
+    synopsis: Instructure's secure and scalable file service.
+    description: A fundamental change to the way Canvas and other Instructure handles files from users. I introduced a Kinesis -> Lambda batch processing stream, migrated a massive Dynamo database, and provisioned and deployed it to multiple AWS regions. This service consolidated several disparate and insecure code paths for file uploading into one, removing a huge chunk of dead code.
+    built_with:
+      - tech: Node
+      - tech: S3
+      - tech: Dynamo
+      - tech: Kinesis
+      - tech: Lambda
+      - tech: Terraform
+    image: instfs.png
 
   - name: microparsec
-    synopsis: Simple text parser for keywords and regex
+    synopsis: Simple text parser for keywords and regex.
     description: A bare-bones text parser that looks for keywords and regular expressions and plucks them out of the text. Inspired by Todoist's Quick Add functionality, which uses Natural Language Processing (NLP) to understand what you type. This is a very simple version (<100loc!), but was an interesting exercise in using regular expressions.
     built_with:
       - tech: JS
@@ -20,6 +41,17 @@ images:
       - tech: Jest
     image: microparsec.png
     link: github.com/xandroxygen/microparsec
+
+  - name: Pace
+    synopsis: Rewrite of deprecated Marathon Web UI.
+    description: Lingotek depends on Mesos and Marathon for container management, but the Web UI had been marked as deprecated and was lacking needed features. I built this from the ground up as a wrapper around Marathon API calls. It replicates the existing Web UI and provides extended features that reduced a 5-step deployment process (editing JSON!) to 1 click.
+    built_with:
+      - tech: Node
+      - tech: Vue
+      - tech: Bulma
+      - tech: Docker
+      - tech: Marathon
+    image: pace.png
 
   - name: Canvas Address Book
     synopsis: Fuzzy searching of massive user databases.
