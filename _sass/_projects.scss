@@ -25,7 +25,8 @@
 
     &.projects-divider {
       flex-direction: column;
-      span {
+
+      > span {
         background-color: $mainblue;
         height: 1px;
         width: 25em;
