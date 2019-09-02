@@ -1,12 +1,45 @@
 images:
-  - name: Khronos
-    synopsis: (in progress) A simple Slack status updater.
-    description: I work part time right now, which means I am either at work, in class, on the bus, or at home. This simple app keeps track of my daily schedule and updates my Slack status, so that my team knows where I am.
+  - name: Choir Seating Chart Builder
+    synopsis: Saving hours of manual spreadsheet work each semester.
+    description: Built for the BYU choirs, this sheet automates the work of organizing choir members by height and section, calculating section sizes and seats, and putting it all together. It generates a seating chart configured to the user's liking, the same chart in list format, and an alternate chart to mix it up.
     built_with:
-      - tech: Node
-      - tech: Slack API
-    image: khronos.png
-    link: github.com/xandroxygen/khronos
+      - tech: Google Sheets
+      - tech: Google App Script
+      - tech: Typescript
+    image: choir.png
+    link: github.com/xandroxygen/choir-chart-builder
+
+  - name: Canvas Live Events
+    synopsis: High-volume streams of activity from Canvas to subscribers.
+    description: Keeping customers in the loop is very important at Instructure. Canvas generates "live events" for many actions that are taken by users in the system, and sends them to interested subscribers for their own use. I kept this system from being overwhelmed by the volume of events, and re-wrote key pieces to run much faster.
+    built_with:
+      - tech: Lambda
+      - tech: Kinesis
+      - tech: SQS
+      - tech: Javascript
+      - tech: Internal - Instructure
+      - tech: Terraform
+    image: live_events.png
+
+  - name: Elysium
+    synopsis: Easy deployment of Lambda functions, Instructure style.
+    description: Instructure has excellent internal deployment tools, but these tools lack proper support for deploying AWS Lambda functions. Instead of treating Lambda functions as only infrastructure that needs provisioning, Elysium treats the function code as releases that can easily be deployed, changed, and rolled back. Elysium can be added to a project with a simple config file, and has removed a significant amount of friction from deploying the Lambdas associated with Canvas Live Events.
+    built_with:
+      - tech: Ruby
+      - tech: AWS SDK
+      - tech: Terraform
+      - tech: Internal - Instructure
+    image: elysium.png
+
+  - name: Microsoft Whiteboard
+    synopsis: Freeform digital canvas for collaboration and drawing.
+    description: This whiteboard started as a simple canvas for drawing, but has transformed into a powerful collaboration tool that is bundled with every Microsoft Teams meetings. I contributed to easy object organization and alignment by snapping object rotation to the cardinal directions and snapping an object to other nearby objects, which made it easier to resize objects without unwanted rotation and organize groups of objects neatly.
+    built_with:
+      - tech: C#
+      - tech: UWP
+      - tech: Intentional Platform
+    image: whiteboard.png
+    link: products.office.com/en-us/microsoft-whiteboard
 
   - name: PandaPom
     synopsis: A hackweek Pomodoro timer.
@@ -29,6 +62,7 @@ images:
       - tech: Dynamo
       - tech: Kinesis
       - tech: Lambda
+      - tech: Internal - Instructure
       - tech: Terraform
     image: instfs.png
 
@@ -52,18 +86,6 @@ images:
       - tech: Docker
       - tech: Marathon
     image: pace.png
-
-  - name: Canvas Address Book
-    synopsis: Fuzzy searching of massive user databases.
-    description: The microservice built with my team at Instructure, which I helped to polish for release. Used in Canvas to search for users to send messages to across all courses, and provided a 15x speed boost in searching. I added functionality to the API, upgraded the service to Webpack 2, and even broke prod once. <span>&#x1f643;</span>
-    built_with:
-      - tech: Node
-      - tech: Elasticsearch
-      - tech: Dynamo
-      - tech: Kinesis
-      - tech: Docker
-      - tech: Webpack
-    image: canvas.png
 
   - name: GPA Calculator (Elm)
     synopsis: Easy cumulative GPA calculator built in Elm.
@@ -102,7 +124,7 @@ images:
       - tech: SCSS
       - tech: Laravel
     image: flashcards.png
-    link: flashcards.byu.edu
+    link: ctl.byu.edu/tool/byu-flashcards
 
 other:
   - name: xandroxygen.github.io
@@ -113,28 +135,3 @@ other:
       - tech: Sass
       - tech: Github Pages
     link: github.com/xandroxygen/xandroxygen.github.io
-
-  - name: BYU Learning Suite Grader
-    synopsis: Streamlined grading process for instructors.
-    description: Features added to the grader include instructor notes, feedback to students, the ability to submit multiple files in one submission. I spent my entire time at Learning Suite working on and improving this page.
-    built_with:
-      - tech: Backbone
-      - tech: Handlebars
-      - tech: SCSS
-      - tech: jQuery
-
-  - name: Catan
-    synopsis: Semester project for BYU's CS340.
-    description: Over the course of the semester, my team of 4 built both the client and server for this Java desktop app. We used Github to collaborate on this relatively large application, and used many design patterns as required by our professor. Our project had one of the lowest bug counts in the class.
-    built_with:
-      - tech: Java
-    link: github.com/xandroxygen/Catan
-
-  - name: Family Map
-    synopsis: Semester project for BYU's CS240.
-    description: Final project for the Advanced Programming class, which was done on Android devices. This app was built from the ground up, other than the server. Though the specs didn't require much in the way of design, I went out of my way to make sure it followed Material Design principles, which made the TAs pleasantly surprised.
-    built_with:
-      - tech: Java
-      - tech: Android
-      - tech: Material Design
-    link: github.com/xandroxygen/FamilyMap

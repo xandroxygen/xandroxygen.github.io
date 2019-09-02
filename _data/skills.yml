@@ -1,64 +1,28 @@
-languages:
-  - item: JS (ES2017+)
-    level: 5
-  - item: HTML
-    level: 4
-  - item: CSS
-    level: 4
-  - item: Python
-    level: 4
-  - item: Ruby
-    level: 3
-  - item: Java
-    level: 3
-  - item: SQL
-    level: 3
-  - item: PHP
-    level: 3
-    php: true
-  - item: Elm
-    level: 2
-  - item: C#
-    level: 2
-
-frameworks:
-  - item: Vue
-    level: 5
-  - item: Backbone
-    level: 4
-  - item: React
-    level: 3
-  - item: React Native
-    level: 3
-  - item: Laravel
-    level: 3
-  - item: Jekyll
-    level: 3
-  - item: iOS
-    level: 2
-  - item: Android
-    level: 2
-
-tools:
-  - item: Node
-    level: 5
-  - item: Docker Compose
-    level: 4
-  - item: Webpack
-    level: 4
-  - item: Git
-    level: 4
-  - item: Terraform
-    level: 4
+daily:
+  - item: Javascript + Node
   - item: AWS Lambda
-    level: 3
-  - item: AWS Kinesis
-    level: 3
-  - item: Docker
-    level: 3
-  - item: AWS S3
-    level: 3
   - item: AWS DynamoDB
-    level: 3
+  - item: AWS Kinesis
+  - item: Docker + Docker Compose
+  - item: Terraform
+  - item: C#
+  - item: Ruby
+  - item: Git CLI
+
+proficient:
+  - item: Vue
+  - item: AWS S3
+  - item: LTI Tools  
+  - item: Python
   - item: Numpy
-    level: 3
+  - item: React
+  - item: HTML + CSS
+
+dabbling:
+  - item: Elm
+  - item: Postgres
+  - item: Laravel
+  - item: Backbone
+  - item: React Native
+  - item: Jekyll
+  - item: Swift

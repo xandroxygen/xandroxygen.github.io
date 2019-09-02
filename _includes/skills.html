@@ -3,38 +3,31 @@
   <div class="skills-lists">
     <div>
       <ul>
-        <li><h4>Languages</h4></li>
-        {% for language in site.data.skills.languages %}
+        <li><h4>Daily Drivers</h4></li>
+        {% for daily in site.data.skills.daily %}
         <li>
-          <p>{{language.item}}</p>
-          {% if language.php %}
-            {% include rating.html number=language.level php=true %}
-          {% else %}
-            {% include rating.html number=language.level %}
-          {% endif %}
+          <p>{{ daily.item }}</p>
         </li>
         {% endfor%}
       </ul>
     </div>
     <div>
       <ul>
-        <li><h4>Frameworks</h4></li>
-        {% for framework in site.data.skills.frameworks %}
+        <li><h4>Proficient</h4></li>
+        {% for proficient in site.data.skills.proficient %}
         <li>
-            <p>{{framework.item}}</p>
-            {% include rating.html number=framework.level %}
-          </li>
+          <p>{{ proficient.item }}</p>
+        </li>
         {% endfor%}
       </ul>
     </div>
     <div>
       <ul>
-        <li><h4>Tools</h4></li>
-        {% for tool in site.data.skills.tools %}
+        <li><h4>Dabbling</h4></li>
+        {% for dabbling in site.data.skills.dabbling %}
         <li>
-            <p>{{tool.item}}</p>
-            {% include rating.html number=tool.level %}
-          </li>
+          <p>{{ dabbling.item }}</p>
+        </li>
         {% endfor%}
       </ul>
     </div>

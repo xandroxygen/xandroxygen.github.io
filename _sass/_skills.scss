@@ -9,10 +9,12 @@
   }
 
   ul {
-    font-size: 0.95em;
-
     @include desktop {
       font-size: 0.9em;
+    }
+
+    p {
+      font-weight: 300;
     }
   }
 

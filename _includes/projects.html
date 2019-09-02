@@ -5,16 +5,20 @@
     <li>
       <div class="projects-info">
         <h4>{{ project.name }}</h4>
-        <a target="_blank" href="https://{{ project.link }}">{{ project.link }}</a>
+        <a target="_blank" href="https://{{ project.link }}">{{
+          project.link
+        }}</a>
         <p>{{ project.description }}</p>
         <div class="projects-tech">
           {% for item in project.built_with %}
-          <span><code>{{ item.tech }}</code></span>
+          <span
+            ><code>{{ item.tech }}</code></span
+          >
           {% endfor %}
         </div>
       </div>
       <div class="projects-image">
-        <img src="{{ site.url }}/assets/{{ project.image }}">
+        <img src="{{ site.url }}/assets/{{ project.image }}" />
       </div>
     </li>
     {% endfor %}
@@ -23,11 +27,15 @@
     {% for project in site.data.projects.other %}
     <div class="projects-info">
       <h4>{{ project.name }}</h4>
-      <a target="_blank" href="https://{{ project.link }}">{{ project.link }}</a>
+      <a target="_blank" href="https://{{ project.link }}">{{
+        project.link
+      }}</a>
       <p>{{ project.description }}</p>
       <div class="projects-tech">
         {% for item in project.built_with %}
-        <span><code>{{ item.tech }}</code></span>
+        <span
+          ><code>{{ item.tech }}</code></span
+        >
         {% endfor %}
       </div>
     </div>
