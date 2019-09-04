@@ -126,7 +126,6 @@ images:
     image: flashcards.png
     link: ctl.byu.edu/tool/byu-flashcards
 
-other:
   - name: xandroxygen.github.io
     synopsis: Personal website.
     description: This site is a simple one, built in (mostly) plain HTML and Sass. Originally started in React before realizing that was too complicated. Learned some interesting lessons with my first attempt at a small React app, but development was much easier on a more simple scale.
