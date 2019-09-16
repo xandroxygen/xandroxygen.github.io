@@ -33,7 +33,7 @@ images:
 
   - name: Microsoft Whiteboard
     synopsis: Freeform digital canvas for collaboration and drawing.
-    description: This whiteboard started as a simple canvas for drawing, but has transformed into a powerful collaboration tool that is bundled with every Microsoft Teams meetings. I contributed to easy object organization and alignment by snapping object rotation to the cardinal directions and snapping an object to other nearby objects, which made it easier to resize objects without unwanted rotation and organize groups of objects neatly.
+    description: This whiteboard started as a simple canvas for drawing, but has transformed into a powerful collaboration tool that is bundled with every Microsoft Teams meetings. I contributed to easy object organization and alignment by snapping object rotation to the cardinal directions and snapping an object to other nearby objects, which made it easier to resize objects without unwanted rotation and neatly organize groups of objects.
     built_with:
       - tech: C#
       - tech: UWP
