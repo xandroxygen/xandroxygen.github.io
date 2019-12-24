@@ -96,24 +96,6 @@ images:
     image: elm.png
     link: github.com/xandroxygen/elm-gpa-calc
 
-  - name: GPA Calculator (Swift)
-    synopsis: Another GPA Calculator built for iOS.
-    description: I wanted to make an iOS app, and needed something simple to test the waters with - enter the trusty GPA calculator. For this, I decided to use Swift alone, with Xcode's Storyboards providing the design.
-    built_with:
-      - tech: Swift
-      - tech: Xcode
-    image: swift.jpg
-    link: github.com/xandroxygen/ios-gpa-calc
-
-  - name: reload-server-webpack-plugin
-    synopsis: Plugin that I forked to expand its abilities.
-    description: This plugin helped my team at Instructure drop its dependency on <code>nodemon</code> for live reloading. However, it didn't have the capability to allow arguments on <code>node</code> or the server script. I added those capabilities and submitted a PR. One day, it'll get merged...
-    built_with:
-      - tech: Webpack
-      - tech: ES2017
-    image: reload.png
-    link: github.com/xandroxygen/reload-server-webpack-plugin
-
   - name: BYU Flashcards
     synopsis: Quizlet-like website for BYU students.
     description: My team of 3 built this website from the database up to help serve the BYU community by giving them a Quizlet-like website that integrated with BYU's LMS. In addition to scoping and building both the API and front-end, one of my responsibilities was collaborating with designers on features that students would appreciate and use.
