@@ -1,19 +1,19 @@
 <section class="intro-text">
   <div class="intro-header">
-      <h3>Profile</h3>
-      <div class="toggle">
-        <span class="toggle-label" id="concise">Concise</span>
-        <input id="intro-toggle" type="checkbox">
-        <label for="intro-toggle"></label>
-        <span class="toggle-label" id="interesting">Interesting</span>
-      </div>
+    <h3>Profile</h3>
+    <div class="toggle">
+      <span class="toggle-label" id="concise">Concise</span>
+      <input id="intro-toggle" type="checkbox" />
+      <label for="intro-toggle"></label>
+      <span class="toggle-label" id="interesting">Interesting</span>
+    </div>
   </div>
   <ul>
     {% for bullet in site.data.about.concise %}
-    <li>{{ bullet.item }}</li>
+    <li>{{ bullet }}</li>
     {% endfor %}
   </ul>
   {% for paragraph in site.data.about.interesting %}
-  <p>{{ paragraph.item }}</p>
+  <p>{{ paragraph }}</p>
   {% endfor %}
 </section>

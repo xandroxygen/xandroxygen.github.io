@@ -1,19 +1,20 @@
 concise:
-  - item: (super) senior CS student at BYU, graduating December 2019
-  - item: Currently a part-time Software Engineer at Instructure
-  - item: Spent a summer in Seattle working on Microsoft's Whiteboard
-  - item: Contributed to the Devops team at Lingotek
-  - item: Interned at Instructure (twice!), building essential Canvas services
-  - item: Committed to developer satisfaction and proper tooling
-  - item: Thinks Star Wars is the greatest fantasy epic of all time
-  - item: Was president of the 180-strong BYU Men's Chorus
-  - item: Taught English to kids in Russia 🇷🇺
+  - Earned a degree in CS from BYU in December 2019
+  - Currently a Software Engineer at Instructure
+  - Spent a summer in Seattle working on Microsoft's Whiteboard
+  - Built internal tools for the Devops team at Lingotek
+  - Interned at Instructure (twice!), building essential Canvas services
+  - Committed to developer satisfaction and proper tooling
+  - Thinks Star Wars is the greatest fantasy epic of all time
+  - Was president of the 180-strong BYU Men's Chorus
+  - Taught English to kids in Russia
 
 interesting:
-  - item: I'm a 4th year CS student at BYU, and will graduate in December 2019. During school, I'm a (part-time) software engineer at Instructure, working on services and underlying platforms that helps Canvas run a little bit easier and a little more secure.
-  - item: My wife and I traveled to Seattle for a summer, where I worked on Microsoft's Whiteboard app. This app aims to redefine remote collaboration by presenting a refined digital canvas, and I am proud that the improvements I made are now live.
-  - item: In 2018, I worked on the Devops team at Lingotek, where I built an internal tool to make container orchestration a little easier and to allow developers to deploy their own code.
-  - item: Over two summers, I worked for Instructure as a software engineer intern. My team and I rolled out two new services to our users built on AWS's Kinesis and S3. I loved the exposure to new technology, and felt privileged to start the groundwork on a service and then be part of releasing it the year after.
-  - item: I've discovered that helping my team do their best work is what fulfills me. This usually takes the form of good documentation and proper tooling. I've had the opportunity to build multiple deployment tools that have saved so much time and made the process so much easier. I fully subscribe to the attitude of "leave it better than you found it"!
-  - item: When I'm not coding or in class, I'm usually reading whatever I can get my hands on. I love absolutely everything about Star Wars and could spend hours raving about the story, the drama, the music, the movies, the shows, the books, and everything else. I'm a 4-year member of the BYU Men's Chorus, the largest and greatest collegiate men's chorus there is. I also enjoy playing the organ, though I don't pretend to be very good.
-  - item: I spent a semester abroad with my wife, as volunteers teaching English in Russia. It was an amazing adventure and we loved getting to know the kids we taught and exploring the history and sights of Russia and Europe.
+  - I graduated from BYU with a Computer Science degree, and along the way earned a minor in music and spent 4 years in the BYU Men's Chorus, the largest men's chorus in the nation.
+  - I'm a software engineer at Instructure, working on services and underlying platforms that helps Canvas run a little bit easier and a little more secure. The services that I take responsibility for deliver millions of events a day to internal and external customers.
+  - My wife and I traveled to Seattle for a summer, where I worked on Microsoft's Whiteboard app. This app aims to redefine remote collaboration by presenting a refined digital canvas, and I am proud that the improvements I made are now live.
+  - In 2018, I worked on the Devops team at Lingotek, where I built a tool to make container orchestration a little easier and to allow developers to deploy their own code.
+  - Over two summers, I worked for Instructure as a software engineer intern. My team and I rolled out two new services to our users built on AWS's Kinesis and S3. I loved the exposure to new technology, and felt privileged to start the groundwork on a service and then be part of releasing it the year after.
+  - I've discovered that helping my team do their best work is what fulfills me. This usually takes the form of good documentation and proper tooling. I've had the opportunity to build multiple deployment tools that have saved so much time and made the process so much easier. I fully subscribe to the attitude of "leave it better than you found it"!
+  - When I'm not coding or in class, I'm usually reading whatever I can get my hands on. I love absolutely everything about Star Wars and could spend hours raving about the story, the drama, the music, the movies, the shows, the books, and everything else. I also enjoying the organ, though I don't pretend to be very good.
+  - I spent a semester abroad with my wife, as volunteers teaching English in Russia. It was an amazing adventure and we loved getting to know the kids we taught and exploring the history and sights of Russia and Europe!
