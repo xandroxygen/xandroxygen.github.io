@@ -12,6 +12,7 @@ daily:
 proficiencies:
   - Vue
   - Go
+  - Typescript
   - AWS S3
   - LTI Tools
   - Python

@@ -87,7 +87,7 @@ images:
       - tech: Marathon
     image: pace.png
 
-  - name: GPA Calculator (Elm)
+  - name: GPA Calculator
     synopsis: Easy cumulative GPA calculator built in Elm.
     description: The GPA calculator is my version of a "Hello World" for a language - easy logic, actually does something, and is just complex enough to get a sense for the language and tools. I've been curious about Elm for a while, so I did something about it and built this.
     built_with:
@@ -108,7 +108,7 @@ images:
     image: flashcards.png
     link: ctl.byu.edu/tool/byu-flashcards
 
-  - name: xandroxygen.github.io
+  - name: xandermoffatt.com
     synopsis: Personal website.
     description: This site is a simple one, built in (mostly) plain HTML and Sass. Originally started in React before realizing that was too complicated. Learned some interesting lessons with my first attempt at a small React app, but development was much easier on a more simple scale.
     built_with:
