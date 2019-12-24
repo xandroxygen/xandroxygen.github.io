@@ -6,27 +6,27 @@
         <li><h4>Daily Drivers</h4></li>
         {% for daily in site.data.skills.daily %}
         <li>
-          <p>{{ daily.item }}</p>
+          <p>{{ daily }}</p>
         </li>
         {% endfor%}
       </ul>
     </div>
     <div>
       <ul>
-        <li><h4>Proficient</h4></li>
-        {% for proficient in site.data.skills.proficient %}
+        <li><h4>Proficiencies</h4></li>
+        {% for proficiencies in site.data.skills.proficiencies %}
         <li>
-          <p>{{ proficient.item }}</p>
+          <p>{{ proficiencies }}</p>
         </li>
         {% endfor%}
       </ul>
     </div>
     <div>
       <ul>
-        <li><h4>Dabbling</h4></li>
-        {% for dabbling in site.data.skills.dabbling %}
+        <li><h4>Experiments</h4></li>
+        {% for experiment in site.data.skills.experiments %}
         <li>
-          <p>{{ dabbling.item }}</p>
+          <p>{{ experiment }}</p>
         </li>
         {% endfor%}
       </ul>

@@ -1,28 +1,29 @@
 daily:
-  - item: Javascript + Node
-  - item: AWS Lambda
-  - item: AWS DynamoDB
-  - item: AWS Kinesis
-  - item: Docker + Docker Compose
-  - item: Terraform
-  - item: React
-  - item: Ruby
-  - item: Git CLI
+  - Javascript + Node
+  - AWS Lambda
+  - AWS DynamoDB
+  - AWS Kinesis
+  - Docker + Docker Compose
+  - Terraform
+  - React
+  - Ruby
+  - Git CLI
 
-proficient:
-  - item: Vue
-  - item: AWS S3
-  - item: LTI Tools  
-  - item: Python
-  - item: Numpy
-  - item: C#
-  - item: HTML + CSS
+proficiencies:
+  - Vue
+  - Go
+  - AWS S3
+  - LTI Tools
+  - Python
+  - C#
+  - HTML + CSS
+  - Command-line apps
 
-dabbling:
-  - item: Elm
-  - item: Postgres
-  - item: Laravel
-  - item: Backbone
-  - item: React Native
-  - item: Jekyll
-  - item: Swift
+experiments:
+  - Elm
+  - Postgres
+  - Laravel
+  - Backbone
+  - React Native
+  - Jekyll
+  - Swift
