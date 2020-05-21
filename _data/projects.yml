@@ -1,4 +1,19 @@
 images:
+  - name: positron
+    synopsis: One-click deployments and management of deploy cycles for Instructure apps
+    description: Instructure's main SaaS offering has been around for a long time and has a pretty slick deployment story. However, many of the other services and smaller apps are more unwieldy to easily deploy. This is an opinionated deploy manager that has an easy process for deploying from master to beta to production, and keeping track of what's deployed. This has turned my team's deploy process from parsing READMEs and running many commands into the same simple process, no matter the specifics.
+    built_with:
+      - tech: Golang
+      - tech: Internal - Instructure
+
+  - name: ddb-simple-migrate
+    synopsis: An easy way of changing a DynamoDB table's schema
+    description: Changing table schema is a problem I've had to solve a few times over the past few years, so I finally made a small utility script that does it for me. On-demand throughput provisioning was a game-changer for this process, making it a lot easier to modify all items in a Dynamo table. We've already used it multiple times on my team's projects at Instructure, and I'm proud of how much time this has saved us.
+    built_with:
+      - tech: Typescript
+      - tech: DynamoDB
+    link: github.com/xandroxygen/ddb-simple-migrate
+
   - name: Choir Seating Chart Builder
     synopsis: Saving hours of manual spreadsheet work each semester.
     description: Built for the BYU choirs, this sheet automates the work of organizing choir members by height and section, calculating section sizes and seats, and putting it all together. It generates a seating chart configured to the user's liking, the same chart in list format, and an alternate chart to mix it up.
