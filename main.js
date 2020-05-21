@@ -1,6 +1,6 @@
 const introInput = document.getElementById("intro-toggle")
 const conciseText = document.querySelector(".intro-text ul")
-const interestingText = document.querySelectorAll(".intro-text p")
+const interestingText = document.querySelectorAll(".intro-text > p")
 const conciseLabel = document.getElementById("concise")
 const interestingLabel = document.getElementById("interesting")
 
